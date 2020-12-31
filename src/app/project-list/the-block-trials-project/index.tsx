@@ -1,6 +1,6 @@
 import React from 'react';
 import Project, { ProjectProps } from '../../../generic/project';
-import screenshot from './screenshot.png';
+import screenshot from './screenshot.jpg';
 
 const TheBlockTrialsProject: React.FC<
   Omit<ProjectProps, 'title' | 'description' | 'image'>
