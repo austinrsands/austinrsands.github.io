@@ -1,4 +1,2 @@
 # austinrsands.github.io
-my portfolio site
-
-View the live site [here](https://austinrsands.github.io/).
+View my portfolio site [here](https://austinrsands.github.io/).
