@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, makeStyles, ThemeProvider } from '@material-ui/core';
+import { Box, CssBaseline, makeStyles, ThemeProvider } from '@material-ui/core';
 import theme from './theme';
 import Header from './header';
 import ProjectList from './project-list';
@@ -9,15 +9,20 @@ const useStyles = makeStyles({
     display: 'flex',
     flexDirection: 'column',
   },
+  header: {
+    width: '100vw',
+  },
+  projectList: {},
 });
 
 const App: React.FC = () => {
   const classes = useStyles();
   return (
     <ThemeProvider theme={theme}>
+      <CssBaseline />
       <Box className={classes.content}>
-        <Header />
-        <ProjectList />
+        <Header className={classes.header} />
+        <ProjectList className={classes.projectList} />
       </Box>
     </ThemeProvider>
   );

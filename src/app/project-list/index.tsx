@@ -8,7 +8,7 @@ import TheBlockTrialsProject from './the-block-trials-project';
 
 const useStyles = makeStyles({
   root: {
-    padding: '2rem',
+    padding: '1rem',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
@@ -17,15 +17,9 @@ const useStyles = makeStyles({
     margin: '5rem 1rem',
     textAlign: 'center',
   },
-  content: {
-    margin: '1rem',
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-  },
   project: {
-    margin: '2rem',
-    maxWidth: '70vw',
+    maxWidth: '90rem',
+    marginBottom: '4rem',
   },
 });
 
@@ -37,12 +31,10 @@ const ProjectList: React.FC<BoxProps> = ({ className, ...rest }) => {
       <Typography className={classes.title} variant="h4">
         Here&apos;s what I&apos;ve been working on...
       </Typography>
-      <Box className={classes.content}>
-        <NotefallProject className={classes.project} />
-        <FractalViewerProject className={classes.project} />
-        <PicturePainterProject className={classes.project} />
-        <TheBlockTrialsProject className={classes.project} />
-      </Box>
+      <NotefallProject className={classes.project} />
+      <FractalViewerProject className={classes.project} />
+      <PicturePainterProject className={classes.project} />
+      <TheBlockTrialsProject className={classes.project} />
     </Box>
   );
 };

@@ -1,13 +1,13 @@
-import { createMuiTheme } from '@material-ui/core/styles';
+import { createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles';
 import { lightBlue, grey } from '@material-ui/core/colors';
 
 const theme = createMuiTheme({
   palette: {
-    type: 'dark',
     primary: {
       main: lightBlue.A400,
     },
     background: {
+      default: grey[50],
       paper: grey[900],
     },
   },
@@ -27,4 +27,4 @@ const theme = createMuiTheme({
   },
 });
 
-export default theme;
+export default responsiveFontSizes(theme);
