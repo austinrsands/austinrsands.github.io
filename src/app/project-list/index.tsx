@@ -11,7 +11,7 @@ const useStyles = makeStyles({
     padding: '1rem',
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'center',
+    alignItems: 'center',
   },
   title: {
     margin: '5rem 1rem',
