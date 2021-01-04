@@ -11,7 +11,7 @@ import clsx from 'clsx';
 import { grey } from '@material-ui/core/colors';
 import GithubLink from './github-link';
 import EmailLink from './email-link';
-import avatar from './avatar.png';
+import avatar from './avatar.jpg';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
   avatar: {
     maxWidth: '80%',
     width: '20rem',
-    height: 'auto',
+    height: '20rem',
     margin: '1rem 2rem',
     border: `0.2rem solid ${grey[50]}`,
   },
