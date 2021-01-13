@@ -3,7 +3,7 @@ import { Box, BoxProps, makeStyles, Typography } from '@material-ui/core';
 import clsx from 'clsx';
 import NotefallProject from './notefall-project';
 import FractalViewerProject from './fractal-viewer-project';
-import PicturePainterProject from './picture-painter-project';
+import PaintifyProject from './paintify-project';
 import TheBlockTrialsProject from './the-block-trials-project';
 
 const useStyles = makeStyles({
@@ -32,8 +32,8 @@ const ProjectList: React.FC<BoxProps> = ({ className, ...rest }) => {
         Here&apos;s what I&apos;ve been working on...
       </Typography>
       <NotefallProject className={classes.project} />
+      <PaintifyProject className={classes.project} />
       <FractalViewerProject className={classes.project} />
-      <PicturePainterProject className={classes.project} />
       <TheBlockTrialsProject className={classes.project} />
     </Box>
   );
