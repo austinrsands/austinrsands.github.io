@@ -8,6 +8,7 @@ const FractalViewerProject: React.FC<
   <Project
     title="Fractal Viewer"
     description="a web app for exploring the Mandelbrot set"
+    technologies={['JavaScript', 'GLSL', 'HTML', 'CSS']}
     image={screenshot}
     site="https://austinrsands.github.io/fractal-viewer/"
     source="https://github.com/austinrsands/fractal-viewer"

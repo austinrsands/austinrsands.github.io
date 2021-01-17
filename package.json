@@ -29,7 +29,7 @@
     "react-dom": "^17.0.1"
   },
   "scripts": {
-    "start": "parcel src/entry/index.html --out-dir test --open",
+    "start": "parcel src/entry/index.html --out-dir build --open",
     "prebuild": "rm -rf docs",
     "build": "parcel build src/entry/index.html --out-dir docs --no-source-maps --public-url ./"
   }

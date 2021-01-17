@@ -8,6 +8,7 @@ const NotefallProject: React.FC<
   <Project
     title="Notefall"
     description="a web app for learning songs from MIDI files with a connected piano keyboard"
+    technologies={['React', 'TypeScript', 'HTML', 'CSS']}
     image={screenshot}
     site="https://austinrsands.github.io/notefall/"
     source="https://github.com/austinrsands/notefall"

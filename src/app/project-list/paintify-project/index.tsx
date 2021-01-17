@@ -8,6 +8,7 @@ const PaintifyProject: React.FC<
   <Project
     title="Paintify"
     description="a web app for turning images into paintings"
+    technologies={['React', 'TypeScript', 'HTML', 'CSS']}
     image={screenshot}
     site="https://austinrsands.github.io/paintify/"
     source="https://github.com/austinrsands/paintify"

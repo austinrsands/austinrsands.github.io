@@ -8,6 +8,7 @@ const TheBlockTrialsProject: React.FC<
   <Project
     title="The Block Trials"
     description="a 2D physics-based puzzle platformer mobile game"
+    technologies={['Unity', 'C#']}
     image={screenshot}
     {...props}
   />

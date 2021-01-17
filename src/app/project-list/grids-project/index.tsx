@@ -8,6 +8,7 @@ const GridsProject: React.FC<
   <Project
     title="Grids"
     description="a mobile game of infinite procedurally generated color puzzles"
+    technologies={['Swift']}
     image={screenshot}
     {...props}
   />
