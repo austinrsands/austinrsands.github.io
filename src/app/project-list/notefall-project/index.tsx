@@ -1,5 +1,5 @@
 import React from 'react';
-import Project, { ProjectProps } from '../project';
+import Project, { ProjectProps } from '../../../lib/project';
 import screenshot from './screenshot.jpg';
 
 const NotefallProject: React.FC<

@@ -9,9 +9,9 @@
     "strict": true,
 
     /* Module Resolution Options */
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "paths": {
-      "~*": ["./*"]
+      "~*": ["./src/*"]
     },
     "esModuleInterop": true,
 
