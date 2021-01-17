@@ -5,6 +5,7 @@ import NotefallProject from './notefall-project';
 import FractalViewerProject from './fractal-viewer-project';
 import PaintifyProject from './paintify-project';
 import TheBlockTrialsProject from './the-block-trials-project';
+import GridsProject from './grids-project';
 
 const useStyles = makeStyles({
   root: {
@@ -35,6 +36,7 @@ const ProjectList: React.FC<BoxProps> = ({ className, ...rest }) => {
       <PaintifyProject className={classes.project} />
       <FractalViewerProject className={classes.project} />
       <TheBlockTrialsProject className={classes.project} />
+      <GridsProject className={classes.project} />
     </Box>
   );
 };
