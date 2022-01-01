@@ -25,9 +25,8 @@ const useStyles = makeStyles((theme) => ({
     margin: '-1rem -2rem',
   },
   avatar: {
-    maxWidth: '80%',
-    width: '20rem',
-    height: '20rem',
+    width: 'min(20rem, 70vw)',
+    height: 'min(20rem, 70vw)',
     margin: '1rem 2rem',
     border: `0.2rem solid ${grey[50]}`,
   },

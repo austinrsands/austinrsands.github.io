@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'row',
   },
   horizontal: {
-    flexDirection: 'column',
+    flexDirection: 'column-reverse',
   },
 }));
 
