@@ -1,5 +1,6 @@
 :root {
   --background-color-dark: #121212;
+  --background-color-light: #ffffff;
   --text-color-primary-dark: #121212;
   --text-color-secondary-dark: #565656;
   --text-color-primary-light: #eeeeee;
@@ -12,11 +13,13 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol';
   scroll-behavior: smooth;
+  background-color: var(--background-color-dark);
 }
 
 body {
   margin: 0;
   min-width: 20rem;
+  background-color: var(--background-color-light);
 }
 
 header,
@@ -79,7 +82,7 @@ footer {
   gap: 6rem;
 }
 
-.project:nth-child(odd) {
+.project:nth-child(even) {
   flex-direction: row-reverse;
 }
 
@@ -205,9 +208,14 @@ footer {
   .project {
     flex-direction: column-reverse;
     width: min(75vw, 40rem);
+    gap: 0;
   }
 
-  .project:nth-child(odd) {
+  .project:nth-child(even) {
     flex-direction: column-reverse;
+  }
+
+  .title {
+    margin-top: 4rem;
   }
 }
