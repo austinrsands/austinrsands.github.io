@@ -103,7 +103,7 @@ footer {
   font-weight: bold;
   font-size: 3rem;
   color: var(--text-color-primary-dark);
-  margin: 1rem 0rem;
+  margin: 0.5rem 0rem;
 }
 
 .description {
