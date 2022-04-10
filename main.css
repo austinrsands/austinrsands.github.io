@@ -210,8 +210,4 @@ footer {
   .project:nth-child(odd) {
     flex-direction: column-reverse;
   }
-
-  .project {
-    gap: 4rem;
-  }
 }
