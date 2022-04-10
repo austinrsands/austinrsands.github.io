@@ -1,7 +1,7 @@
 :root {
   --background-color-dark: #121212;
   --text-color-primary-dark: #121212;
-  --text-color-secondary-dark: #505050;
+  --text-color-secondary-dark: #868686;
   --text-color-primary-light: #eeeeee;
   --text-color-secondary-light: #bfbfbf;
   --link-color: #448aff;
@@ -103,13 +103,15 @@ footer {
   font-weight: bold;
   font-size: 3rem;
   color: var(--text-color-primary-dark);
-  margin: 0;
+  margin: 1rem 0rem;
 }
 
 .description {
   color: var(--text-color-secondary-dark);
   font-size: 1.2rem;
   margin: 0;
+  line-height: 1.5rem;
+  font-weight: 400;
 }
 
 .chips {
