@@ -1,5 +1,12 @@
 const projects = [
   {
+    name: 'ArtFair',
+    description: 'A collaborative canvas drawing experience that facilitates team building through several fun activites that focus on various interpersonal skills, discussion questions that spark reflective conversation, and tangible artifacts that serve as lasting memories of the experience.',
+    technologies: ['React', 'TypeScript', 'Material-UI', 'Express', 'Socket.IO', 'Node.js', 'Canvas API'],
+    sourceCodeUrl: 'https://github.com/austinrsands/artfair',
+    imageSrc: 'artfair.webp',
+  },
+  {
     name: 'Notefall',
     description: 'A web app for learning songs from MIDI files with a connected piano keyboard. Generated note blocks fall continuously or stop until the right keys are pressed. The number of keys, transpose level, and tempo may also be adjusted.',
     technologies: ['React', 'TypeScript', 'Material-UI', 'Canvas API'],
@@ -14,12 +21,6 @@ const projects = [
     liveSiteUrl: 'https://austinrsands.github.io/paintify/',
     sourceCodeUrl: 'https://github.com/austinrsands/paintify',
     imageSrc: 'paintify.webp',
-  },
-  {
-    name: 'ArtFair',
-    description: 'A collaborative canvas drawing experience that facilitates team building through several fun activites that focus on various interpersonal skills, discussion questions that spark reflective conversation, and tangible artifacts that serve as lasting memories of the experience.',
-    technologies: ['React', 'TypeScript', 'Material-UI', 'Express', 'Socket.IO', 'Node.js', 'Canvas API'],
-    imageSrc: 'artfair.webp',
   },
   {
     name: 'Fractal Viewer',
