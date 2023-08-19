@@ -1,14 +1,14 @@
 const projects = [
   {
     name: 'ArtFair',
-    description: 'A collaborative canvas drawing experience that facilitates team building through several fun activites that focus on various interpersonal skills, discussion questions that spark reflective conversation, and tangible artifacts that serve as lasting memories of the experience.',
+    description: 'A collaborative drawing experience with a focus on improving interpersonal skills through team building activities and discussion questions that spark reflective conversation.',
     technologies: ['React', 'TypeScript', 'Material-UI', 'Express', 'Socket.IO', 'Node.js', 'Canvas API'],
     sourceCodeUrl: 'https://github.com/austinrsands/artfair',
     imageSrc: 'artfair.webp',
   },
   {
     name: 'Notefall',
-    description: 'A web app for learning songs from MIDI files with a connected piano keyboard. Generated note blocks fall continuously or stop until the right keys are pressed. The number of keys, transpose level, and tempo may also be adjusted.',
+    description: 'A web app for learning songs "Guitar Hero" style with a physical piano keyboard. Note blocks are generated from uploaded MIDI files and fall continuously or stop until the correct keys are pressed. The keyboard size, transpose, and tempo are configurable.',
     technologies: ['React', 'TypeScript', 'Material-UI', 'Canvas API'],
     liveSiteUrl: 'https://austinrsands.github.io/notefall/',
     sourceCodeUrl: 'https://github.com/austinrsands/notefall',
@@ -16,7 +16,7 @@ const projects = [
   },
   {
     name: 'Paintify',
-    description: 'A web app for creating paintings using procedurally generated brushstrokes. Brush qualities such as size, direction, roundness, density, length, texture, and more may be adjusted.',
+    description: 'A web app for creating digital paintings using procedurally generated brushstrokes. Brush qualities such as size, direction, roundness, density, length, texture, and more may be adjusted.',
     technologies: ['React', 'TypeScript', 'Material-UI', 'Canvas API'],
     liveSiteUrl: 'https://austinrsands.github.io/paintify/',
     sourceCodeUrl: 'https://github.com/austinrsands/paintify',
@@ -32,19 +32,19 @@ const projects = [
   },
   {
     name: 'Solar System',
-    description: 'An interactive simulation of the major celestial bodies of our solar system. Objects are shaded using the Phong lighting model.',
+    description: 'An interactive 3D simulation of the major celestial bodies of our solar system. Objects are shaded using the Phong lighting model.',
     technologies: ['Java', 'OpenGL', 'GLSL'],
     imageSrc: 'solar-system.webp',
   },
   {
     name: 'The Block Trials',
-    description: 'A 2D physics-based puzzle platformer mobile game. You play as a character with the ability to pick up and throw different kinds of blocks and must use those blocks to traverse each level.',
+    description: 'A 2D physics-based puzzle platformer mobile game. The player may interact with various types of blocks (reverse gravity, sticky, explosive, etc.) and must find creative ways to leverage their abilities to traverse each level.',
     technologies: ['Unity', 'C#'],
     imageSrc: 'the-block-trials.webp',
   },
   {
     name: 'Grids',
-    description: 'A mobile game of infinite procedurally generated color puzzles. You must cycle the rows and columns of the larger grid until it matches the smaller one.',
+    description: 'A iOS game in which the player must cycle the rows and columns of a jumbled grid of squares to match a given pattern. Each level is procedurally generated with varying levels of difficulty.',
     technologies: ['Swift'],
     imageSrc: 'grids.webp',
   },
